@@ -1,0 +1,58 @@
+{
+    "dummyTravelRequests": [
+      {
+        "tenantId": "tenant1",
+        "tenantName": "Tenant 1",
+        "travelRequestId": "tenant1_createdBy_tr_1",
+        "travelRequestStatus": "Approved",
+        "travelRequestState": "section 0",
+        "createdBy": "employee1",
+        "createdFor": ["employee2", "employee3"],
+        "travelAllocationHeaders": [
+          {
+            "headerName": "Header 1",
+            "values": [
+              {
+                "valueName": "Value 1",
+                "percentage": 50
+              },
+              {
+                "valueName": "Value 2",
+                "percentage": 50
+              }
+            ]
+          }
+        ],
+        "itinerary": {
+          "departureCity": "City A",
+          "arrivalCity": "City B",
+          "departureDate": "2023-09-15",
+          "returnDate": "2023-09-20",
+          "hotels": ["Hotel 1", "Hotel 2"],
+          "cabs": ["Cab 1", "Cab 2"],
+          "flights": ["Flight 1", "Flight 2"]
+        },
+        "travelDocuments": ["Document 1", "Document 2"],
+        "bookings": [
+          {
+            "vendorName": "Vendor 1",
+            "billNumber": "Bill 1",
+            "billDescription": "Description 1",
+            "grossAmount": 1000,
+            "taxes": 100,
+            "date": "2023-09-10",
+            "imageUrl": "Image URL 1"
+          }
+        ],
+        "approvers": ["approver1", "approver2"],
+        "preferences": ["preference1", "preference2"],
+        "travelViolations": ["violation1", "violation2"],
+        "travelRequestDate": "2023-09-01",
+        "travelBookingDate": "2023-09-05",
+        "travelCompletionDate": "2023-09-25",
+        "travelRequestRejectionReason": "Rejection Reason 1"
+      }
+      
+    ]
+  }
+  
